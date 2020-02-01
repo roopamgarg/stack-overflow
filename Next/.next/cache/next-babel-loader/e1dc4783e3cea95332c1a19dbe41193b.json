@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default \"http://localhost:5000/\";","map":{"version":3,"sources":["/home/roopam/Videos/redcarpet/stack-overflow-clone/next-app/redux/helpers/API_URL.js"],"names":[],"mappings":"AAAA,eAAe,wBAAf","sourcesContent":["export default \"http://localhost:5000/\"\n"]},"metadata":{},"sourceType":"module"}

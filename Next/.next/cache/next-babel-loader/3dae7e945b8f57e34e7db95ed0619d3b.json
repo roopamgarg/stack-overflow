@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport Nav from '../Nav/Nav';\n\nfunction Layout(props) {\n  return __jsx(\"div\", null, __jsx(Nav, null), props.children);\n}\n\nexport default Layout;","map":null,"metadata":{},"sourceType":"module"}

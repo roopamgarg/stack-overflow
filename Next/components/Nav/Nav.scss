@@ -1,0 +1,19 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    background-color: #fafafb;
+    width: 100%;
+    z-index: 99;
+    box-shadow: 0.3rem 0 0.5rem rgba(#000,.2);
+    &__buttons{
+        display: flex;
+    }
+    button{
+        margin: 0 1rem 0 0;
+        display: block;
+    }
+}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"import cookie from \"react-cookies\";\nexport const getHeaders = () => ({\n  headers: {\n    \"Content-Type\": \"application/json\",\n    \"token\": cookie.load(\"token\")\n  }\n});","map":null,"metadata":{},"sourceType":"module"}
