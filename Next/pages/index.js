@@ -17,28 +17,8 @@ class IndexPage extends Component {
       return {};
     }
   }
-  state = {
-    page:0,
-    pageSize:10
-  }
-  loadMore = !this.props.questionsLoader ? (
-    <div
-      style={{
-        textAlign: 'center',
-        marginTop: 12,
-        height: 32,
-        lineHeight: '32px',
-      }}
-    >
-      <Button onClick={this.onLoadMore}>loading more</Button>
-    </div>
-  ) : null;
-  onLoadMore = async () => {
-    this.setState({
-      page:this.state.page+1
-    })
-   await this.props.getQuestions("",this.state.page+1,this.state.pageSize)
-  }
+
+ 
   render() {
     const props = this.props;
     console.log(props);
@@ -46,7 +26,6 @@ class IndexPage extends Component {
       <Layout>
         <div style={{ padding: "0 10%" }}>
           <List
-            loadMore={this.loadMore}
             className="demo-loadmore-list"
             loading={props.questionsLoader}
             itemLayout="horizontal"
