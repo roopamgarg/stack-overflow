@@ -4797,7 +4797,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/home/roopam/Videos/redcarpet/stack-overflow-clone/next-app/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/home/roopam/Videos/test/ntest/Next/.next");
       return error;
     }
   };

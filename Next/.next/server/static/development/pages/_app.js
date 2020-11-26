@@ -116,7 +116,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-redux */ "react-redux");
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var _redux_index__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../redux/index */ "./redux/index.js");
-var _jsxFileName = "/home/roopam/Videos/redcarpet/stack-overflow-clone/next-app/components/Nav/Nav.js";
+var _jsxFileName = "/home/roopam/Videos/test/ntest/Next/components/Nav/Nav.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -273,7 +273,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_cookies__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_cookies__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/router */ "next/router");
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_7__);
-var _jsxFileName = "/home/roopam/Videos/redcarpet/stack-overflow-clone/next-app/components/askQuestion/AskQuestion.js";
+var _jsxFileName = "/home/roopam/Videos/test/ntest/Next/components/askQuestion/AskQuestion.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -2275,7 +2275,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Nav_Nav__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Nav/Nav */ "./components/Nav/Nav.js");
 /* harmony import */ var _styles_antd_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/antd.scss */ "./styles/antd.scss");
 /* harmony import */ var _styles_antd_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_styles_antd_scss__WEBPACK_IMPORTED_MODULE_6__);
-var _jsxFileName = "/home/roopam/Videos/redcarpet/stack-overflow-clone/next-app/pages/_app.js";
+var _jsxFileName = "/home/roopam/Videos/test/ntest/Next/pages/_app.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -2343,7 +2343,7 @@ class MyApp extends next_app__WEBPACK_IMPORTED_MODULE_2___default.a {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("http://139.59.32.24:7000/");
+/* harmony default export */ __webpack_exports__["default"] = ("http://localhost:7000/");
 
 /***/ }),
 

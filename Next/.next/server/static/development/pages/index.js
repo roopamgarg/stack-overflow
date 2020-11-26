@@ -116,7 +116,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-redux */ "react-redux");
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var _redux_index__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../redux/index */ "./redux/index.js");
-var _jsxFileName = "/home/roopam/Videos/redcarpet/stack-overflow-clone/next-app/components/Nav/Nav.js";
+var _jsxFileName = "/home/roopam/Videos/test/ntest/Next/components/Nav/Nav.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -273,7 +273,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_cookies__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_cookies__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/router */ "next/router");
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_7__);
-var _jsxFileName = "/home/roopam/Videos/redcarpet/stack-overflow-clone/next-app/components/askQuestion/AskQuestion.js";
+var _jsxFileName = "/home/roopam/Videos/test/ntest/Next/components/askQuestion/AskQuestion.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -450,7 +450,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Nav_Nav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Nav/Nav */ "./components/Nav/Nav.js");
-var _jsxFileName = "/home/roopam/Videos/redcarpet/stack-overflow-clone/next-app/components/layout/Layout.js";
+var _jsxFileName = "/home/roopam/Videos/test/ntest/Next/components/layout/Layout.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -491,7 +491,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _helper_helper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../helper/helper */ "./helper/helper.js");
-var _jsxFileName = "/home/roopam/Videos/redcarpet/stack-overflow-clone/next-app/components/questions/Questions.js";
+var _jsxFileName = "/home/roopam/Videos/test/ntest/Next/components/questions/Questions.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -608,7 +608,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var antd__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd */ "antd");
 /* harmony import */ var antd__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/roopam/Videos/redcarpet/stack-overflow-clone/next-app/helper/helper.js";
+var _jsxFileName = "/home/roopam/Videos/test/ntest/Next/helper/helper.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -2329,12 +2329,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_askQuestion_AskQuestion__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/askQuestion/AskQuestion */ "./components/askQuestion/AskQuestion.js");
 /* harmony import */ var _components_questions_Questions__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/questions/Questions */ "./components/questions/Questions.js");
 /* harmony import */ var _redux_index__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../redux/index */ "./redux/index.js");
-var _jsxFileName = "/home/roopam/Videos/redcarpet/stack-overflow-clone/next-app/pages/index.js";
+var _jsxFileName = "/home/roopam/Videos/test/ntest/Next/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
 
@@ -2345,43 +2343,6 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 class IndexPage extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
-  constructor(...args) {
-    super(...args);
-
-    _defineProperty(this, "state", {
-      page: 0,
-      pageSize: 10
-    });
-
-    _defineProperty(this, "loadMore", !this.props.questionsLoader ? __jsx("div", {
-      style: {
-        textAlign: 'center',
-        marginTop: 12,
-        height: 32,
-        lineHeight: '32px'
-      },
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 25
-      },
-      __self: this
-    }, __jsx(antd__WEBPACK_IMPORTED_MODULE_1__["Button"], {
-      onClick: this.onLoadMore,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 33
-      },
-      __self: this
-    }, "loading more")) : null);
-
-    _defineProperty(this, "onLoadMore", async () => {
-      this.setState({
-        page: this.state.page + 1
-      });
-      await this.props.getQuestions("", this.state.page + 1, this.state.pageSize);
-    });
-  }
-
   static async getInitialProps({
     store,
     isServer,
@@ -2405,7 +2366,7 @@ class IndexPage extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
     return __jsx(_components_layout_Layout__WEBPACK_IMPORTED_MODULE_3__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 46
+        lineNumber: 26
       },
       __self: this
     }, __jsx("div", {
@@ -2414,11 +2375,10 @@ class IndexPage extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 47
+        lineNumber: 27
       },
       __self: this
     }, __jsx(antd__WEBPACK_IMPORTED_MODULE_1__["List"], {
-      loadMore: this.loadMore,
       className: "demo-loadmore-list",
       loading: props.questionsLoader,
       itemLayout: "horizontal",
@@ -2429,13 +2389,13 @@ class IndexPage extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         index: index,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 33
         },
         __self: this
       }),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 48
+        lineNumber: 28
       },
       __self: this
     }), __jsx("div", {
@@ -2444,13 +2404,13 @@ class IndexPage extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 56
+        lineNumber: 35
       },
       __self: this
     }, __jsx(_components_askQuestion_AskQuestion__WEBPACK_IMPORTED_MODULE_4__["default"], _extends({}, props, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 57
+        lineNumber: 36
       },
       __self: this
     }), "Ask Question"))));
@@ -2482,7 +2442,7 @@ const mapDispatchToProps = dispatch => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("http://139.59.32.24:7000/");
+/* harmony default export */ __webpack_exports__["default"] = ("http://localhost:7000/");
 
 /***/ }),
 
@@ -3022,7 +2982,7 @@ const REGISTER_USER_FAILURE = "REGISTER_USER_FAILURE";
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/roopam/Videos/redcarpet/stack-overflow-clone/next-app/pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! /home/roopam/Videos/test/ntest/Next/pages/index.js */"./pages/index.js");
 
 
 /***/ }),
