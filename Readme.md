@@ -55,7 +55,7 @@ A stack overflow clone that covers all the minimal required to serve the purpose
 ## Steps to setup
 
 ```
-git clone https://github.com/roopamgarg/ntest.git
+git clone https://github.com/roopamgarg/stack-overflow.git
 cd ntest
 npm i
 npm run setup
