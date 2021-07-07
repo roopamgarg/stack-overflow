@@ -14,9 +14,6 @@ A stack overflow clone that covers all the minimal required to serve the purpose
 ## DB Diagram
 ![image](https://cdn-images-1.medium.com/max/1000/1*IJOH2Xm0M_dIpqGW-W3SHQ.png)
 
-## Final Product Images
-![image](https://cdn-images-1.medium.com/max/1500/1*DjGWYYmt-ZFTM0dpK-aNNA.png)
-![image](https://cdn-images-1.medium.com/max/1500/1*F86Q0tD1WjnJ-a5cMIwdKQ.png)
 
 ## Folder Structure
 ```
@@ -46,6 +43,11 @@ A stack overflow clone that covers all the minimal required to serve the purpose
     ├── package-lock.json
     └── routes
 ```
+
+## Final Product Images
+![image](https://cdn-images-1.medium.com/max/1500/1*DjGWYYmt-ZFTM0dpK-aNNA.png)
+![image](https://cdn-images-1.medium.com/max/1500/1*F86Q0tD1WjnJ-a5cMIwdKQ.png)
+
 
 ## Steps to setup
 
